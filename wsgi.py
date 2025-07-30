@@ -4,7 +4,7 @@ import os
 import sys
 
 # Додаємо шлях до проекту
-path = '/home/yourusername/my-fastapi-app'  # ЗМІНІТЬ USERNAME
+path = '/home/AndriiDEV/Fast-API-Users-CRUD'  # ЗМІНІТЬ USERNAME
 if path not in sys.path:
     sys.path.insert(0, path)
 
