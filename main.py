@@ -65,7 +65,7 @@ def main():
     config = uvicorn.Config(
         "main:app",
         host="0.0.0.0",  # Дозволяє підключення ззовні
-        port=8000,
+        port=8001,
         reload=__debug__,  # Reload тільки в debug режимі
         log_level="info",
         access_log=True,
